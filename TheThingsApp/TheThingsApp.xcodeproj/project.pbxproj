@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D24A3DD72890727A0074F4C2 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DD62890727A0074F4C2 /* UsersListViewController.swift */; };
+		D24A3DD9289072910074F4C2 /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DD8289072910074F4C2 /* UsersListViewModel.swift */; };
+		D24A3DDC289072F40074F4C2 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DDA289072F40074F4C2 /* UserTableViewCell.swift */; };
+		D24A3DDD289072F40074F4C2 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24A3DDB289072F40074F4C2 /* UserTableViewCell.xib */; };
+		D24A3DE0289073080074F4C2 /* SelectedUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DDE289073080074F4C2 /* SelectedUserTableViewCell.swift */; };
+		D24A3DE1289073080074F4C2 /* SelectedUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24A3DDF289073080074F4C2 /* SelectedUserTableViewCell.xib */; };
+		D24A3DE72890736E0074F4C2 /* SelectedUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DE62890736E0074F4C2 /* SelectedUserViewModel.swift */; };
+		D24A3DE9289073830074F4C2 /* SelectedUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DE8289073830074F4C2 /* SelectedUserViewController.swift */; };
+		D24A3DF3289074580074F4C2 /* UsersList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24A3DF2289074580074F4C2 /* UsersList.storyboard */; };
+		D24A3DFA289082B30074F4C2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DF9289082B30074F4C2 /* User.swift */; };
+		D24A3E00289092650074F4C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A3DFF289092650074F4C2 /* Constants.swift */; };
+		D24A4283289450CE00CC5001 /* NameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A4282289450CE00CC5001 /* NameTextField.swift */; };
+		D263427D28940DFB004BBBBC /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263427B28940DFB004BBBBC /* AddUserViewController.swift */; };
 		D264A55228905EDC00E024D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264A55128905EDC00E024D4 /* AppDelegate.swift */; };
 		D264A55428905EDC00E024D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264A55328905EDC00E024D4 /* SceneDelegate.swift */; };
 		D264A55628905EDC00E024D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264A55528905EDC00E024D4 /* ViewController.swift */; };
-		D264A55928905EDC00E024D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D264A55728905EDC00E024D4 /* Main.storyboard */; };
 		D264A55B28905EDD00E024D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D264A55A28905EDD00E024D4 /* Assets.xcassets */; };
 		D264A55E28905EDD00E024D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D264A55C28905EDD00E024D4 /* LaunchScreen.storyboard */; };
 		D264A56928905EDD00E024D4 /* TheThingsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264A56828905EDD00E024D4 /* TheThingsAppTests.swift */; };
 		D264A57328905EDD00E024D4 /* TheThingsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264A57228905EDD00E024D4 /* TheThingsAppUITests.swift */; };
 		D264A57528905EDD00E024D4 /* TheThingsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264A57428905EDD00E024D4 /* TheThingsAppUITestsLaunchTests.swift */; };
+		D2D616FD2891D16200954DAD /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D616FC2891D16200954DAD /* UIExtensions.swift */; };
+		D2D617002891D28A00954DAD /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D2D616FF2891D28A00954DAD /* Debug.xcconfig */; };
+		D2D617022891D2CE00954DAD /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D2D617012891D2CE00954DAD /* Production.xcconfig */; };
+		D2D617042891D5E200954DAD /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D617032891D5E200954DAD /* Environment.swift */; };
+		D2D617062891E19F00954DAD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D617052891E19F00954DAD /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D24A3DD62890727A0074F4C2 /* UsersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		D24A3DD8289072910074F4C2 /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		D24A3DDA289072F40074F4C2 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		D24A3DDB289072F40074F4C2 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		D24A3DDE289073080074F4C2 /* SelectedUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedUserTableViewCell.swift; sourceTree = "<group>"; };
+		D24A3DDF289073080074F4C2 /* SelectedUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedUserTableViewCell.xib; sourceTree = "<group>"; };
+		D24A3DE62890736E0074F4C2 /* SelectedUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedUserViewModel.swift; sourceTree = "<group>"; };
+		D24A3DE8289073830074F4C2 /* SelectedUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedUserViewController.swift; sourceTree = "<group>"; };
+		D24A3DF2289074580074F4C2 /* UsersList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UsersList.storyboard; sourceTree = "<group>"; };
+		D24A3DF9289082B30074F4C2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D24A3DFF289092650074F4C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D24A4282289450CE00CC5001 /* NameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTextField.swift; sourceTree = "<group>"; };
+		D263427B28940DFB004BBBBC /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
 		D264A54E28905EDC00E024D4 /* TheThingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheThingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D264A55128905EDC00E024D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D264A55328905EDC00E024D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D264A55528905EDC00E024D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D264A55828905EDC00E024D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D264A55A28905EDD00E024D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D264A55D28905EDD00E024D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D264A55F28905EDD00E024D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +78,11 @@
 		D264A56E28905EDD00E024D4 /* TheThingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheThingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D264A57228905EDD00E024D4 /* TheThingsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheThingsAppUITests.swift; sourceTree = "<group>"; };
 		D264A57428905EDD00E024D4 /* TheThingsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheThingsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2D616FC2891D16200954DAD /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		D2D616FF2891D28A00954DAD /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D2D617012891D2CE00954DAD /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		D2D617032891D5E200954DAD /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		D2D617052891E19F00954DAD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +110,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D24A3DD2289071EF0074F4C2 /* UsersList */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DF8289082500074F4C2 /* Model */,
+				D24A3DE52890734A0074F4C2 /* ViewModel */,
+				D24A3DE4289073450074F4C2 /* View */,
+			);
+			path = UsersList;
+			sourceTree = "<group>";
+		};
+		D24A3DD3289072150074F4C2 /* SelectedUsers */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DE3289073310074F4C2 /* View */,
+				D24A3DE22890732B0074F4C2 /* ViewModel */,
+			);
+			path = SelectedUsers;
+			sourceTree = "<group>";
+		};
+		D24A3DD4289072210074F4C2 /* AddUser */ = {
+			isa = PBXGroup;
+			children = (
+				D263427B28940DFB004BBBBC /* AddUserViewController.swift */,
+			);
+			path = AddUser;
+			sourceTree = "<group>";
+		};
+		D24A3DD52890722A0074F4C2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DFF289092650074F4C2 /* Constants.swift */,
+				D2D616FC2891D16200954DAD /* UIExtensions.swift */,
+				D2D617032891D5E200954DAD /* Environment.swift */,
+				D2D617052891E19F00954DAD /* Network.swift */,
+				D24A4282289450CE00CC5001 /* NameTextField.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D24A3DE22890732B0074F4C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DE62890736E0074F4C2 /* SelectedUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D24A3DE3289073310074F4C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DE8289073830074F4C2 /* SelectedUserViewController.swift */,
+				D24A3DDE289073080074F4C2 /* SelectedUserTableViewCell.swift */,
+				D24A3DEB2890739C0074F4C2 /* Xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D24A3DE4289073450074F4C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DD62890727A0074F4C2 /* UsersListViewController.swift */,
+				D24A3DDA289072F40074F4C2 /* UserTableViewCell.swift */,
+				D24A3DF1289074170074F4C2 /* Xib */,
+				D24A3DF0289074100074F4C2 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D24A3DE52890734A0074F4C2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DD8289072910074F4C2 /* UsersListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D24A3DEB2890739C0074F4C2 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DDF289073080074F4C2 /* SelectedUserTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		D24A3DF0289074100074F4C2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DF2289074580074F4C2 /* UsersList.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D24A3DF1289074170074F4C2 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DDB289072F40074F4C2 /* UserTableViewCell.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		D24A3DF8289082500074F4C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DF9289082B30074F4C2 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D264A54528905EDC00E024D4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +241,14 @@
 		D264A55028905EDC00E024D4 /* TheThingsApp */ = {
 			isa = PBXGroup;
 			children = (
-				D264A55128905EDC00E024D4 /* AppDelegate.swift */,
+				D2D616FE2891D24D00954DAD /* Config */,
+				D24A3DD52890722A0074F4C2 /* Utilities */,
+				D24A3DD4289072210074F4C2 /* AddUser */,
+				D24A3DD3289072150074F4C2 /* SelectedUsers */,
+				D24A3DD2289071EF0074F4C2 /* UsersList */,
 				D264A55328905EDC00E024D4 /* SceneDelegate.swift */,
 				D264A55528905EDC00E024D4 /* ViewController.swift */,
-				D264A55728905EDC00E024D4 /* Main.storyboard */,
+				D264A55128905EDC00E024D4 /* AppDelegate.swift */,
 				D264A55A28905EDD00E024D4 /* Assets.xcassets */,
 				D264A55C28905EDD00E024D4 /* LaunchScreen.storyboard */,
 				D264A55F28905EDD00E024D4 /* Info.plist */,
@@ -125,6 +271,15 @@
 				D264A57428905EDD00E024D4 /* TheThingsAppUITestsLaunchTests.swift */,
 			);
 			path = TheThingsAppUITests;
+			sourceTree = "<group>";
+		};
+		D2D616FE2891D24D00954DAD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D2D616FF2891D28A00954DAD /* Debug.xcconfig */,
+				D2D617012891D2CE00954DAD /* Production.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +386,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24A3DE1289073080074F4C2 /* SelectedUserTableViewCell.xib in Resources */,
+				D2D617022891D2CE00954DAD /* Production.xcconfig in Resources */,
+				D24A3DDD289072F40074F4C2 /* UserTableViewCell.xib in Resources */,
+				D2D617002891D28A00954DAD /* Debug.xcconfig in Resources */,
+				D24A3DF3289074580074F4C2 /* UsersList.storyboard in Resources */,
 				D264A55E28905EDD00E024D4 /* LaunchScreen.storyboard in Resources */,
 				D264A55B28905EDD00E024D4 /* Assets.xcassets in Resources */,
-				D264A55928905EDC00E024D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +418,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D264A55628905EDC00E024D4 /* ViewController.swift in Sources */,
+				D2D616FD2891D16200954DAD /* UIExtensions.swift in Sources */,
+				D2D617062891E19F00954DAD /* Network.swift in Sources */,
+				D24A3DD72890727A0074F4C2 /* UsersListViewController.swift in Sources */,
+				D24A3DE72890736E0074F4C2 /* SelectedUserViewModel.swift in Sources */,
+				D2D617042891D5E200954DAD /* Environment.swift in Sources */,
 				D264A55228905EDC00E024D4 /* AppDelegate.swift in Sources */,
+				D24A3DE0289073080074F4C2 /* SelectedUserTableViewCell.swift in Sources */,
+				D24A4283289450CE00CC5001 /* NameTextField.swift in Sources */,
+				D24A3DD9289072910074F4C2 /* UsersListViewModel.swift in Sources */,
+				D24A3DDC289072F40074F4C2 /* UserTableViewCell.swift in Sources */,
+				D24A3E00289092650074F4C2 /* Constants.swift in Sources */,
 				D264A55428905EDC00E024D4 /* SceneDelegate.swift in Sources */,
+				D263427D28940DFB004BBBBC /* AddUserViewController.swift in Sources */,
+				D24A3DE9289073830074F4C2 /* SelectedUserViewController.swift in Sources */,
+				D24A3DFA289082B30074F4C2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D264A55728905EDC00E024D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D264A55828905EDC00E024D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D264A55C28905EDD00E024D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -318,6 +482,7 @@
 /* Begin XCBuildConfiguration section */
 		D264A57628905EDD00E024D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D616FF2891D28A00954DAD /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -379,6 +544,7 @@
 		};
 		D264A57728905EDD00E024D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D617012891D2CE00954DAD /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -434,6 +600,7 @@
 		};
 		D264A57928905EDD00E024D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D616FF2891D28A00954DAD /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +610,8 @@
 				INFOPLIST_FILE = TheThingsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = UsersList;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,6 +629,7 @@
 		};
 		D264A57A28905EDD00E024D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D617012891D2CE00954DAD /* Production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +639,8 @@
 				INFOPLIST_FILE = TheThingsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = UsersList;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,6 +650,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TheThingsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,6 +659,7 @@
 		};
 		D264A57C28905EDD00E024D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D616FF2891D28A00954DAD /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +684,7 @@
 		};
 		D264A57D28905EDD00E024D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D617012891D2CE00954DAD /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +709,7 @@
 		};
 		D264A57F28905EDD00E024D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D616FF2891D28A00954DAD /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +732,7 @@
 		};
 		D264A58028905EDD00E024D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D617012891D2CE00954DAD /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

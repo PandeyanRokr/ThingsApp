@@ -1,0 +1,16 @@
+//
+//  Debug.xcconfig
+//  TheThingsApp
+//
+//  Created by Pandeyan Rokr on 2022-07-28.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = Things
+APP_ENV = Dev
+
+//Server URLs
+USERLIST_URL = https:/$()/gorest.co.in/public/v2/users
+PRODUCT_BUNDLE_IDENTIFIER = com.thingsapp.dev

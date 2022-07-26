@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TheThingsApp.xcscheme_^#shared#^_</key>
+		<key>TheThingsApp (Dev).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>TheThingsApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D264A54D28905EDC00E024D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D264A56328905EDD00E024D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D264A56D28905EDD00E024D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
